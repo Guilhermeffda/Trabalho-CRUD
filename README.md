@@ -40,21 +40,13 @@ Primeiro, você precisa configurar o banco de dados:
 
 ### 2. Iniciando o Backend
 Navegue até a pasta do backend
-cd backend
-
-Instale as dependências
-npm install
- 
-Inicie o servidor
-npm start
+* cd backend
+* npm start
 
 ### 3. Iniciando o Frontend
 
-Navegue até a pasta do frontend
-cd frontend
+* cd frontend
 
-Instale as dependências
-npm install
+* npm install vite
 
-Inicie o servidor de desenvolvimento
-npm run dev
+* npm run dev
