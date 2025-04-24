@@ -163,3 +163,23 @@ button:focus-visible {
   align-items: center;
 
 }
+
+.rodape{
+  background-color: burlywood;
+  width: 100%;
+  height: 50px;
+}
+
+footer p {
+  color: black;
+  font-size: 14px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
