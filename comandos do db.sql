@@ -1,6 +1,4 @@
 
--- aqui esta o meus comando para o banco de dados, ele eh conectado ao db site_web, e eu usei o sqldatagenerator para criar os dados
-
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -21,3 +19,18 @@ INSERT INTO usuarios (nome, idade, cpf, email, senha) VALUES
 ('Keeling LLC', '29', NULL, 'Alvena_Deckow@gmail.com', 'YLgArW70wz_D_11'),
 ('Stracke Group', '45', NULL, 'Robyn85@hotmail.com', 'ZZ7vGvKENMFJ5vG'),
 ('Hackett, Labadie and Ondricka', '31', NULL, 'Winfield_Hyatt@yahoo.com', '8ruVWG5EY3qrx3J');
+
+
+UPDATE usuarios SET cpf = '52998224725' WHERE id = 1;
+UPDATE usuarios SET cpf = '45317828890' WHERE id = 2;
+UPDATE usuarios SET cpf = '78452963107' WHERE id = 3;
+UPDATE usuarios SET cpf = '93647152834' WHERE id = 4;
+UPDATE usuarios SET cpf = '21589346752' WHERE id = 5;
+UPDATE usuarios SET cpf = '69832415709' WHERE id = 6;
+UPDATE usuarios SET cpf = '32758694103' WHERE id = 7;
+UPDATE usuarios SET cpf = '86142973568' WHERE id = 8;
+UPDATE usuarios SET cpf = '49382715604' WHERE id = 9;
+UPDATE usuarios SET cpf = '76519284357' WHERE id = 10;
+
+DELETE FROM usuarios WHERE id BETWEEN 11 AND 20;
+
