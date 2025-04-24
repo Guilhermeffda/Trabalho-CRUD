@@ -41,6 +41,7 @@ Primeiro, você precisa configurar o banco de dados:
 ### 2. Iniciando o Backend
 Navegue até a pasta do backend
 * cd backend
+* npm install nodemon
 * npm start
 
 ### 3. Iniciando o Frontend
