@@ -36,7 +36,25 @@ Primeiro, você precisa configurar o banco de dados:
 ![image](https://github.com/user-attachments/assets/20d4c714-2efd-4da2-b78d-2831f21062d9)
 
 2. Execute os comandos SQL do arquivo comandos_do_bd.sql:
+![image](https://github.com/user-attachments/assets/c33766d7-f3b1-42ae-a5ea-c5ca65eda684)
 
+### 2. Iniciando o Backend
+Navegue até a pasta do backend
+cd backend
 
+Instale as dependências
+npm install
+ 
+Inicie o servidor
+npm start
 
+### 3. Iniciando o Frontend
 
+Navegue até a pasta do frontend
+cd frontend
+
+Instale as dependências
+npm install
+
+Inicie o servidor de desenvolvimento
+npm run dev
