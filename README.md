@@ -4,40 +4,39 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](https://www.mysql.com/)
 
-Uma breve descrição do seu projeto e sua finalidade.
+Um sistema CRUD completo desenvolvido para a disciplina de Experiência Criativa, permitindo a criação, leitura, atualização e exclusão de dados através de uma interface web moderna.
 
 ![Preview do Projeto](https://github.com/user-attachments/assets/890cbd73-9435-4de7-a79b-60f999a870cf)
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Frontend**: React + Vite
-- **Backend**: Node.js
+- **Backend**: Node.js + Express
 - **Banco de Dados**: MySQL
+- **Estilização**: [Adicione aqui se usou CSS, Tailwind, etc]
 
 ## 📦 Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 - [Node.js](https://nodejs.org/) (v18.x recomendado)
 - [MySQL](https://www.mysql.com/) (8.0 ou superior)
-- [Git](https://git-scm.com) (Para poder clonar o projeto para usa maquina)
+- [Git](https://git-scm.com) (Para clonar o repositório)
 
-
-## AVISO!!
-No projeto original havia o node_modules, porem na hora de enviar o codigo tive que remover ele, pois ele era muito pesado e github nao me permitiu enviar ele
+## ⚠️ AVISO IMPORTANTE
+O projeto foi enviado sem a pasta `node_modules` devido ao tamanho. As dependências serão instaladas automaticamente quando você executar `npm install` nas pastas do frontend e backend.
 
 ## 🚀 Como Executar o Projeto
 
-### 1. Banco de Dados MySQL
+### 1. Configuração do Banco de Dados MySQL
 
-```bash
-# Conecte-se ao seu servidor MySQL (como root ou um usuário com privilégios)
-mysql -u root -p
+Primeiro, você precisa configurar o banco de dados:
 
-# Crie o banco de dados
-CREATE DATABASE nome_do_banco;
+1. Edite o arquivo `backend/db.js` com suas credenciais do MySQL:
 
-# Saia do MySQL
-exit
+![image](https://github.com/user-attachments/assets/20d4c714-2efd-4da2-b78d-2831f21062d9)
 
-# Importe a estrutura do banco de dados
-mysql -u root -p nome_do_banco < caminho/para/o/arquivo.sql
+2. Execute os comandos SQL do arquivo comandos_do_bd.sql:
+
+
+
+
