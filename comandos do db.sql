@@ -32,5 +32,4 @@ UPDATE usuarios SET cpf = '86142973568' WHERE id = 8;
 UPDATE usuarios SET cpf = '49382715604' WHERE id = 9;
 UPDATE usuarios SET cpf = '76519284357' WHERE id = 10;
 
-DELETE FROM usuarios WHERE id BETWEEN 11 AND 20;
 
